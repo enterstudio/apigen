@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'minitest','~> 5'
-gem 'jeweler', '~> 2'
+gem 'jeweler', '~> 2', '>= 2.1.1'
 gem 'simplecov', :require => false, :group => :test
-gem 'thor'
+gem 'thor', '>= 1.4.0'
